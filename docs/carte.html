@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALLAMAS</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=chillax@600&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=archivo@600&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=archivo@500&display=swap" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=archivo@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/carte.css">
+    <link rel="stylesheet" href="assets/css/header_footer.css">
+</head>
+<body>
+   <div class="carte">
+        <header class="home-section">
+            <div class="réduction">
+                <p>Sign up and get 20% off for all new arrivals collections</p>
+            </div>
+            <div class="navigation">
+                <nav class="navbar">
+                    <ul class="nav-left">
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Collection</a></li>
+                    </ul>
+                    <div class="logo"><img src="assets/fonts/logo.png" alt=""></div>
+                    <ul class="nav-right">
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><img src="assets/fonts/account.png" alt=""></li>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Cart(0)</a></li>
+                        <li><img src="assets/fonts/search.png" alt=""></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+            <!-- Section Carte-->
+        <section class="cart">
+            <div class="cart-item">
+                <div class="info-cart">
+                    <h1>Cart<span>()</span></h1>
+                    <div class="clear-item">
+                        <img src="assets/fonts/trash.png" alt="" id="clear">
+                        <button id="clear-btn">Clear Cart</button>
+                    </div>
+                </div>
+                <div class="cart-details">
+                    <div class="Produit">
+                        <h3>Product</h3>
+                        <div class="detail-prod">
+                            <img src="assets/images/collection-img.png" alt="" id="img-prod">
+                            <div class="info-prod">
+                                <h1>T-shirt</h1>
+                                <p>Green-large</p>
+                                <span>$87</span>
+                            </div>
+                        </div><br><br><br><br><br>
+                        <div class="detail-prod">
+                            <img src="assets/images/MK.svg" alt="" id="img-prod">
+                            <div class="info-prod">
+                                <h1>Men's Dri-FIT</h1>
+                                <p>Oceaan-large</p>
+                                <span>$100</span>
+                            </div>
+                        </div><br><br><br><br><br><br>
+                        <div class="detail-prod">
+                            <img src="assets/images/JD.svg" alt="" id="img-prod">
+                            <div class="info-prod">
+                                <h1>Jordan</h1>
+                                <p>SIZE:15</p>
+                                <span>$125</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Quantite">
+                        <h3>Quantity</h3>
+                        <div class="quant-prod">
+                            <button class="moins"><img class="quant-btn" src="assets/fonts/remove.svg" alt="" ></button>
+                            <input type="text" class="quant-ecran" value="1" readonly>
+                            <button class="plus"><img class="quant-btn" src="assets/fonts/plus.svg" alt="" ></button>
+                            <button id="sup-btn"><img src="assets/fonts/trash.png" alt=""></button>
+                        </div><br><br><br><br><br><br>
+                        <div class="quant-prod">
+                            <button class="moins"><img class="quant-btn" src="assets/fonts/remove.svg" alt="" ></button>
+                            <input type="text" class="quant-ecran" value="1" readonly>
+                            <button class="plus"><img class="quant-btn" src="assets/fonts/plus.svg" alt="" ></button>
+                            <button id="sup-btn"><img src="assets/fonts/trash.png" alt=""></button>
+                        </div><br><br><br><br><br>
+                        <div class="quant-prod">
+                            <button class="moins"><img class="quant-btn" src="assets/fonts/remove.svg" alt="" ></button>
+                            <input type="text" class="quant-ecran" value="1" readonly>
+                            <button class="plus"><img class="quant-btn" src="assets/fonts/plus.svg" alt="" ></button>
+                            <button id="sup-btn"><img src="assets/fonts/trash.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="Prix">
+                        <h3>Price</h3>
+                        <div id="total-prix-prod"><input type="text" placeholder="$"></div><br><br><br><br><br><br><br>
+                        <div id="total-prix-prod"><input type="text" placeholder="$"></div><br><br><br><br><br><br><br>
+                        <div id="total-prix-prod"><input type="text" placeholder="$"></div>
+                    </div>
+                    <div class="Order-summary">
+                        <h3>Order Summary</h3>
+                        <form action="">
+                            <label for="Subtotl">Subtotal</label>
+                            <input type="text" name="" id="subtotal" value="0" readonly><br>
+                            <label for="Discount">Discount</label>
+                            <input type="text" name="" id="discount" value="0" readonly><br><br>
+                            <label for="Order_total" id="Od_tt">Order total</label>
+                            <input type="text" name="" id="Order_total" value="0" readonly><br><br>
+                            <a href="#" class="check-btn">Checkout now</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="foot-item">
+                <div class="subscribe">
+                    <img src="assets/fonts/logo.svg" alt="">
+                    <p>Subscribe to our newsletter for upcoming products and best discount for all <br>items</p>
+                    <input type="email" placeholder="Your email" class="mail">
+                    <input type="submit" value="Subscribe" class="sub">
+                </div>
+                <div class="link-group">
+                    <ul class="group">
+                        <li class="item-name">Product</li> 
+                        <li><a href="#">Jacket</a></li>
+                        <li><a href="#">T-shirt</a></li>
+                        <li><a href="#">Jacket</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Sunglasses</a></li>
+                    </ul>
+                    <ul class="group">
+                        <li class="item-name">Categories</li>
+                        <li><a href="#">Man</a></li>
+                        <li><a href="#">Woman</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Gift</a></li>
+                        <li><a href="#">New arrival</a> </li>
+                    </ul>
+                    <ul class="group">
+                        <li class="item-name">Our Social Media</li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Youtube</a></li>
+                        <li><a href="#">X</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+   </div> 
+</body>
+</html>

@@ -1,0 +1,573 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    text-decoration: none;
+}
+.Home{
+    height: 3362px;
+}
+
+        /* Home-section */
+
+    /* Réduction */
+.home-section .réduction{
+    background-color: black;
+
+    height: 48px;
+    text-align: center;
+}
+.réduction p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    color: blue;
+}
+
+    /* Navigation */
+.navigation{
+    height: 76px;
+    background-color: white;
+}
+.navigation .navbar{
+    background-color: lightgray;
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+.nav-left li a{
+    color: black;
+}
+.nav-right li a {
+    color: black;
+}
+.navbar .nav-left{
+    width: 234px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 547px;
+    height: 36px;
+    
+}
+.logo img{
+    width: 158px;
+    height: 36px;
+    margin-left: 50%;
+}
+.navbar .nav-right{
+    width: 319px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right li img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3%;
+}
+
+    /* Hero */
+.hero{
+    height: 400px;
+    position: relative;
+    left: 7%;
+}
+.hero-img img{
+   width: 1090px;
+   height: 400px;
+   border-radius: 25px;
+   object-fit: cover;
+}
+.hero-texte{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    background-color: transparent;
+    margin: 0 auto;
+    left: 0;
+    right: 60%;
+    top: 0.5%;
+    color: black;
+    width: 1090px;
+    height: 400px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.hero-texte .slogan{
+    width: 350px;
+    height: 20px;
+    display: flex;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    background: transparent;
+    position: relative;
+    left: 355px;
+    top: 80px;
+}
+.slogan hr{
+    width: 66px;
+    height: 0.5px;
+    border-color: white;
+}
+.slogan h5{
+    font-size: 14px;
+    width: 252px;
+    height: 20px;
+    color: white;
+    background: transparent;
+    position: relative;
+    bottom: 10px;
+}
+.titre {
+    width: 1000px;
+    height: 184px;
+    position: relative;
+    top: 50px;
+    color: white;
+    background: transparent;
+}
+.titre h1{
+    font-family: 'Chillax', sans-serif;
+    font-size: 40px;
+    background: transparent;
+    position: relative;
+    left: 35px;
+}
+.titre h1 span{
+    background: transparent;
+    position: relative;
+    right: 20px;
+}
+.titre p{
+    width: 1000px;
+    height: 48px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.shop-btn {
+    width: 171px;
+    height: 44px;
+    display: flex;
+    background: transparent;
+    position: relative;
+    left: 475px;
+    top: 60px;
+}
+.shop-btn .btn{
+    width: 128px;
+    height: 44px;
+    font-size: 14px;
+    font-family: 'Archivo', sans-serif;
+    margin-right: 10px;
+    padding-top: 10px;
+    border-radius: 23px;
+    color: black;
+    font-weight: 500;
+}
+.shop-btn img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    position: relative;
+    right: 12px;
+}
+
+        /* Tendances */
+
+    /* Catégories */
+.tendances p{
+    font-family: 'Chillax', sans-serif;
+    font-size: 26px;
+    width: 100%;
+    height: 72px;
+    text-align: center;
+    position: relative;
+    right: 40px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.tendances .categories{
+    width: 1200px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-left: 70px; 
+}
+.categorie-active, .categorie{
+    background-color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: center;
+}
+.categorie-active{
+    background-color: #000;
+    color: #fff;
+    border-color: white;
+}
+
+    /* Tendance-grid */
+    .tendances-grid {
+        width: 1090px;
+        height: 1450px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 20px;
+    }
+    
+    .tendances-item{
+        flex: 1 1 calc(33.333% - 20px);
+        background-color: white;
+        padding-bottom: 150px;
+        text-align: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-sizing: border-box;
+        width: 322px;
+        height: 600px;
+        font-family: 'Archivo', sans-serif;
+        position: relative;
+        left: 120px;
+        
+    }
+    .tendances-item .summer_img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .tendances-item .promo{
+        width: 95px;
+        height: 32px;
+        position: relative;
+        right: 120px;
+        top: 60px;
+    }
+    .tendances-item .info{
+        width: 200px;
+        height: 32px;
+        
+    }
+    .info h4{
+        color: black;
+        font-size: 25px;
+    }
+    .info span{
+        font-size: 28px;
+        font-weight: 600;
+        color: darkgray;
+        position: relative;
+        right: 80px;
+    }
+    .tendances-item .achat{
+        width: 286.66px;
+        height: 44px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: relative;
+        bottom: 90px;
+        background: transparent;
+    }
+    .achat .add{
+        width: 143.33px;
+        height: 44px;
+        border-radius: 25px;
+        background-color: white;
+        font-size: 13px;
+        color: black;
+        text-align: center;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+    .achat .add img{
+        width: 20px;
+        height: 20px;
+    }
+    .achat .bnw{
+        width: 143.33px;
+        height: 44px;
+        border: 2px solid;
+        border-color: black;
+        border-radius: 20px;
+        background: transparent;
+        font-size: 15px;
+        color: white;
+        padding-top: 10px;
+    }
+    .tendances-grid .Vmore{
+        font-family: 'Archivo', sans-serif;
+        font-size: 14px; 
+        width: 128px;
+        height: 44px;
+        border-radius: 25px;
+        border: 2px solid;
+        border-color: black;
+        margin-left: 55%;
+        color: black;
+        text-align: center;
+        padding-top: 7px;
+    }
+    
+        /* Collection */
+
+    /* Collection-description */
+.collection{
+    width: 1090px;
+    height: 154px;
+    margin-left: 250px;
+}
+.collection .collection-description{
+    width: 900px;
+    height: 72px;
+    text-align: center;
+    position: relative;
+    left: 45px;
+}
+.collection-description h2{
+    font-family: 'Chillax', sans-serif;
+    font-size: 36px;
+    position: relative;
+    right: 90px;
+}
+.collection-description p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    color: rgb(151, 148, 148);
+    font-weight: 700;
+} 
+
+    /* Collection-item-left */
+.collection-item{
+    width: 996px;
+    height: 446px;
+    display: flex;
+    margin-top: 50px;
+    
+}
+.collection-item .left-item{
+    width: 305px;
+    height: 446px;
+    position: relative;
+    right: 40px;
+}
+.left-item img{
+    width: 305px;
+    height: 446px;
+    object-fit: cover;
+}
+.left-btn{
+    width: 156px;
+    height: 44px;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    left: 75px;
+    bottom: 65px;
+}
+.left-btn a{
+    color: black;
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.left-btn a img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+    /* Collection-item-right */
+.right-item{
+    width: 675px;
+    height: 446px;
+}
+.right-item .cl{
+    width: 675px;
+    height: 446px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.right-item .right-info{
+    width: 675px;
+    height: 446px;
+    text-align: center;
+    border-radius: 15px;
+    background: transparent;
+    position: relative;
+    bottom: 101%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.right-info img{
+    width: 375px;
+    height: 45px;
+    margin-top: 180px;
+    background: transparent;
+
+}
+.right-info p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 18px;
+    background: transparent;
+    color: white;
+    font-weight: 300;
+}
+    /* Footer */
+footer{
+    width: 1349px;
+    height: 305px;
+    background: black;
+    margin-top: 700px;
+}
+footer .foot-item{
+    width: 1349px;
+    height: 305px;
+    display: flex;
+    padding-top: 100px;
+    background: transparent;
+}
+.foot-item .subscribe{
+    width: 465px;
+    height: 156px;
+    position: relative;
+    left: 7%;
+    background: transparent;
+}
+.subscribe img{
+    width: 158px;
+    height: 36px;
+    background: transparent;
+}
+.subscribe p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    background: transparent;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.subscribe .mail {
+    width: 316px;
+    height: 44px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+}
+.subscribe .sub{
+    width: 128px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: black;
+    border: none;
+}
+
+    /* Groupe de Liens */
+ .link-group{
+    width: 375px;
+    height: 156px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Archivo', sans-serif;
+    position: relative;
+    left: 35%;
+    bottom: 15%;
+    background: transparent;
+ }
+.group {
+    width: 200px;
+    height: 156px;
+    background: transparent;
+}
+.group .item-name{
+    color: white;
+    font-size: 16px;
+}
+.group li{
+    list-style: none;
+    margin: 6px 0;
+    background: transparent;
+}
+.group li a{
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+    background: transparent;
+    color: white;
+}
+
+/* Pour les écrans de 600px et moins */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero {
+        width: 335px;
+        height: 372px;
+    }
+
+    .hero-img{
+        display: block;
+        width: 335px;
+        height: 390px;
+    }
+    .hero-img img{
+        width: 100%;
+        height: 372px;
+        object-fit: cover;
+        position: relative;
+        left: 5%;
+    }
+    .hero-texte {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        top: 0;
+    }
+
+    .tendances-grid {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tendances-item {
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+    }
+}
+
+
+
+

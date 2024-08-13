@@ -1,0 +1,190 @@
+        /* Carte */
+
+    /* info carte */
+.cart-item{
+    height: 50px;
+    display: flex;
+}
+.info-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.info-cart h1{
+    color: black;
+    padding-left: 55%;
+    font-family: 'Chillax', sans-serif;
+}
+.info-cart .clear-item{
+    position: relative;
+    left: 650px;
+    display: flex;
+}
+.clear-item img{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 7px;
+    left: 9px;
+}
+.clear-item #clear-btn{
+    width: 90px;
+    height: 30px;
+    border: none;
+    font-family: 'Chillax', sans-serif;
+}
+
+        /* cart-details */
+
+.cart-details{
+    width: 500px;
+    height: 50px;
+    margin-top: 50px;
+}
+     /* Produit */
+.cart-details .Produit{
+    width: 300px;
+    height: 270px;
+}
+.Produit h3{
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    right: 60px;
+}
+.Produit .detail-prod{
+    display: flex;
+    width: 500px;
+    height: 30px;
+    position: relative;
+    top: 70px;
+    right: 80px;
+}
+.detail-prod #img-prod{
+    width: 100px;
+    height: 110px;
+}
+.info-prod{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.info-prod p{
+    padding-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Chillax', sans-serif;
+}
+.info-prod span{
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+    /* Quantity */
+.Quantite{
+    width: 200px;
+    height: 100px;
+}
+.Quantite h3{
+    font-size: 16px;
+    position: relative;
+    bottom: 225px;
+    left: 430px;
+}
+.quant-prod{
+    width: 190px;
+    height: 44px;
+    position: relative;
+    left: 400px;
+    bottom: 200px;
+    display: flex;
+}
+.quant-prod button{
+    border: none;
+    cursor: pointer;
+}
+.quant-prod input{
+    width: 70px;
+    border: none;
+    text-align: center;
+}
+.quant-prod #sup-btn{
+    padding-left: 25px;
+}
+
+    /* Prix */
+.Prix{
+    width: 115px;
+    height: 150px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 2px;
+    left: 50px;
+}
+.Prix h3{
+    font-size: 16px;
+    position: relative;
+    bottom: 324px;
+    left: 600px;
+    background: transparent;
+    font-family: 'Archivo', sans-serif;
+}
+.Prix #total-prix-prod{
+    width: 113px;
+    height: 20px;
+    position: relative;
+    left: 550px;
+    bottom: 289px;
+}
+#total-prix-prod input{
+    width: 100px;
+    border: none;
+    text-align: right;
+}
+
+    /* Order-summary */
+.Order-summary{
+    width: 285px;
+    height: 220px;
+    position: relative;
+    bottom: 500px;
+    left: 800px;
+}
+.Order-summary h3{
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+}
+.Order-summary form{
+    width: 237px;
+    height: 144px;
+    margin-top: 5px;
+}
+form #subtotal{
+    width: 150px;
+    border: none;
+    text-align: right;
+}
+form #discount{
+    width: 146px;
+    border: none;
+    text-align: right;
+    margin-top: 12px;
+}
+form #Od_tt{
+    font-weight: 800;
+}
+form #Order_total{
+    width: 128px;
+    text-align: right;
+    border: none;
+}
+form .check-btn{
+    margin-left: 5%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 25px;
+    width: 210px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Chillax', sans-serif;
+
+}

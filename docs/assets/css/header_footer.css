@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    text-decoration: none;
+}
+.carte{
+    height: 500px;
+}
+
+        /* Home-section */
+
+    /* Réduction */
+.home-section .réduction{
+    background-color: black;
+    height: 48px;
+    text-align: center;
+}
+.réduction p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    color: blue;
+}
+
+    /* Navigation */
+.navigation{
+    height: 76px;
+    background-color: white;
+}
+.navigation .navbar{
+    background-color: lightgray;
+    font-family: 'Archivo', sans-serif;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 7%;
+}
+.nav-left li a{
+    color: black;
+}
+.nav-right li a {
+    color: black;
+}
+.navbar .nav-left{
+    width: 234px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 547px;
+    height: 36px;
+    
+}
+.logo img{
+    width: 158px;
+    height: 36px;
+    margin-left: 45%;
+}
+.navbar .nav-right{
+    width: 319px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-right li img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 3%;
+}
+
+ /* Footer */
+ footer{
+    width: 1349px;
+    height: 305px;
+    background: black;
+    margin-top: 700px;
+}
+footer .foot-item{
+    width: 1349px;
+    height: 305px;
+    display: flex;
+    padding-top: 100px;
+    background: transparent;
+}
+.foot-item .subscribe{
+    width: 465px;
+    height: 156px;
+    position: relative;
+    left: 7%;
+    background: transparent;
+}
+.subscribe img{
+    width: 158px;
+    height: 36px;
+    background: transparent;
+}
+.subscribe p{
+    font-family: 'Archivo', sans-serif;
+    font-size: 14px;
+    background: transparent;
+    color: white;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+.subscribe .mail {
+    width: 316px;
+    height: 44px;
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+}
+.subscribe .sub{
+    width: 128px;
+    height: 44px;
+    border-radius: 20px;
+    background-color: white;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    color: black;
+    border: none;
+}
+
+    /* Groupe de Liens */
+ .link-group{
+    width: 375px;
+    height: 156px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Archivo', sans-serif;
+    position: relative;
+    left: 35%;
+    bottom: 15%;
+    background: transparent;
+ }
+.group {
+    width: 200px;
+    height: 156px;
+    background: transparent;
+}
+.group .item-name{
+    color: white;
+    font-size: 16px;
+}
+.group li{
+    list-style: none;
+    margin: 6px 0;
+    background: transparent;
+}
+.group li a{
+    text-decoration: none;
+    font-size: 12px;
+    opacity: 0.8;
+    background: transparent;
+    color: white;
+
+}
