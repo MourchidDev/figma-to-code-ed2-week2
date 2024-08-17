@@ -14,17 +14,15 @@
         /* Home-section */
 
     /* Réduction */
-.home-section .réduction{
-    background-color: black;
-
-    height: 48px;
-    text-align: center;
-}
-.réduction p{
-    font-family: 'Archivo', sans-serif;
-    font-size: 12px;
-    color: white;
-}
+    .home-section .reduction{
+        background-color: black;
+        height: 45px;
+        text-align: center;
+        font-family: 'Archivo', sans-serif;
+        font-size: 12px;
+        color: white;
+        padding: 10px;
+    }
 
     /* Navigation */
 .navigation{
@@ -139,7 +137,10 @@
     border-radius: 25px;
     background-color: white;
     font-size: 13px;
+}
+#add-to-cart a{
     color: black;
+    font-family:'Archivo', sans-serif; ;
 }
 #buy-now {
     width: 143.33px;

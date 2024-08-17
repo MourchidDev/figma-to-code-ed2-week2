@@ -13,16 +13,16 @@
         /* Home-section */
 
     /* Réduction */
-.home-section .réduction{
-    background-color: black;
-    height: 48px;
-    text-align: center;
-}
-.réduction p{
-    font-family: 'Archivo', sans-serif;
-    font-size: 12px;
-    color: blue;
-}
+    /* Réduction */
+    .home-section .reduction{
+        background-color: black;
+        height: 45px;
+        text-align: center;
+        font-family: 'Archivo', sans-serif;
+        font-size: 12px;
+        color: white;
+        padding: 10px;
+    }
 
     /* Navigation */
 .navigation{

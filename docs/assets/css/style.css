@@ -13,22 +13,19 @@
         /* Home-section */
 
     /* Réduction */
-.home-section .réduction{
+.home-section .reduction{
     background-color: black;
-
-    height: 48px;
+    height: 45px;
     text-align: center;
-}
-.réduction p{
     font-family: 'Archivo', sans-serif;
     font-size: 12px;
-    color: blue;
+    color: white;
+    padding: 10px;
 }
 
     /* Navigation */
 .navigation{
     height: 76px;
-    background-color: white;
 }
 .navigation .navbar{
     background-color: lightgray;
@@ -198,7 +195,7 @@
     margin-bottom: 70px;
 }
 .tendances .categories{
-    width: 1200px;
+    /*width: 1200px;*/
     height: 48px;
     display: flex;
     justify-content: center;
@@ -329,9 +326,9 @@
 
     /* Collection-description */
 .collection{
-    width: 1090px;
+    width: 950px;
     height: 154px;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 .collection .collection-description{
     width: 900px;
@@ -355,7 +352,7 @@
 
     /* Collection-item-left */
 .collection-item{
-    width: 996px;
+    width: 900px;
     height: 446px;
     display: flex;
     margin-top: 50px;
